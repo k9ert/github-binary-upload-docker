@@ -6,4 +6,4 @@ RUN apt-get install -y file
 RUN mkdir /work
 WORKDIR /work
 
-CMD [ "github-binary-upload"]
+ENTRYPOINT [ "github-binary-upload"]
